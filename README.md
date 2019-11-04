@@ -6,9 +6,10 @@ Makefiles for wrapping different types of projects.
 
 Each Makefile should be in its own directory.
 
-| Project Type | Description                             |
-| ------------ | --------------------------------------- |
-| terraform    | Targets for common Terraform operations |
+| Project Type             | Description                                           |
+| ------------------------ | ----------------------------------------------------- |
+| terraform                | Common Terraform operations                           | 
+| terraform-module-testing | Linting and integration testing for Terraform modules |
 
 ## Usage
 
@@ -21,3 +22,11 @@ all usage. You can using the following commands:
 | `make help`  | Prints basic help for all commands |
 | `make debug` | Prints vars used in the Makefile   |
 | `make info`  | Print metadata about the module    |
+
+## Releases
+
+View the [CHANGELOG] for full release notes.
+
+
+<!-- Markdown Anchor links keep URLs out of our prose -->
+[CHANGELOG]: CHANGELOG.md
